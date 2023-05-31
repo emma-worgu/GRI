@@ -4,7 +4,7 @@ async function verifyPayment (payment) {
     console.log(payment.transaction_id);
 
     try {
-        const url = 'http://localhost:5000/api/user/verify-payment';
+        const url = 'https://jwhite.onrender.com/api/user/verify-payment';
 
 
         const data = {
