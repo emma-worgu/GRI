@@ -39,6 +39,8 @@ async function transfer() {
 
     const url = 'https://jwhite.onrender.com/api/user/withdraw';
 
+    console.log(amount);
+
     const req = await fetch(url, {
         method: 'POST',
         body: JSON.stringify(data),
