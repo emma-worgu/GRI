@@ -15,7 +15,7 @@ async function verifyAccountNumber() {
             'Content-Type': 'application/json',
             'Accept': 'application/json'
         }
-    })
+    });
 
     const res = await req.json();
     const fetchedName = res.msg.data.account_name;
